@@ -1,0 +1,43 @@
+
+.contact{
+	background: #fee;
+    
+}
+
+.contenedor{
+    padding-bottom: 0;
+    padding-top: 0;
+    text-align: center;
+    align-content: center;
+}
+
+.sub{
+    margin-bottom: 20px;
+}
+
+.contenedor p{
+    padding: 3px;
+    background: rgba(170, 255, 170, 0.441);
+    display: inline;
+}
+
+.mapa{
+    margin: 20px;
+}
+
+@media screen and (max-width:750px) {
+	.texto-header h1{
+		font-size: 60px;
+	}
+
+	.titulo {
+		margin-top: 0;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+    iframe{
+        width: 90%;
+    }
+}
